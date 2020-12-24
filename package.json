@@ -1,0 +1,22 @@
+{
+  "name": "CraftYourWorld",
+  "version": "1.0.0",
+  "description": "Crafting Your World.",
+  "main": "bot.js",
+  "repository": {},
+  "keywords": [
+    "image",
+    "image-resize",
+    "image-editing",
+    "pixel-art"
+  ],
+  "author": "Nigelrex",
+  "license": "MIT",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "sharp": "^0.26.3",
+    "request": "^2.88.2"
+
+  }
+}
