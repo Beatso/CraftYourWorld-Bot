@@ -216,5 +216,5 @@ client.on('guildMemberRemove', member =>
 
 
 
-client.login('NzgzMjQ2NjUwODg5NDY5OTUz.X8X9SQ.3KcvSVFcVUiHfKxJ8rz0EH-m2Qc');
+client.login('Token');
 
