@@ -6,11 +6,8 @@ require("dotenv").config()
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] })
 client.commands = new Discord.Collection()
 module.exports.client = client
-module.exports.githubtoken=process.env.githubtoken
-module.exports.beatsoghtoken=process.env.beatsoghtoken
 const creationsWebhook = new Discord.WebhookClient(process.env.creationswebhookid,process.env.creationswebhooktoken)
 const scaleImage = require("./scale")
-const sharp = require("sharp")
 const request = require("request").defaults({ encoding: null })
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
 for (const file of commandFiles) {
