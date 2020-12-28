@@ -290,14 +290,4 @@ client.on('guildMemberRemove', member =>
 	})
 
 
-
-
-
-
-
-
-
-
-			
-
-
+client.login(process.env.bottoken)
