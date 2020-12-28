@@ -21,7 +21,7 @@ for (const file of commandFiles) {
 // Bot Turned on Notification
 client.once('ready', () => {
 	console.log('CraftYourWorld Bot is Online!');
-	client.user.setActivity("Crafting Your World...",{type:"CUSTOM_STATUS"})
+	client.user.setActivity("Crafting Your World...",{type:"WATCHING"})
 })
 
 
