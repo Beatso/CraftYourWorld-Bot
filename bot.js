@@ -86,9 +86,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-	if (message.content === `${prefix}creators`) {
-		message.channel.send(`This Server was created and maintained by Nigelrex And TheOtherAnxxity.`);
-	}  else if (message.content === `${prefix}server`) {
+	if (message.content === `${prefix}server`) {
 		message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`);
 	}  
 })	
