@@ -1,9 +1,12 @@
 {
-  "name": "CraftYourWorld",
+  "name": "craftyourworld-bot",
   "version": "1.0.0",
   "description": "Crafting Your World.",
   "main": "bot.js",
-  "repository": {},
+  "repository": "github:Nigelrex/CraftYourWorld-Bot",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "keywords": [
     "image",
     "image-resize",
