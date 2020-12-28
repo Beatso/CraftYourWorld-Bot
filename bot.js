@@ -2,7 +2,7 @@ const fs = require('fs')
 const Discord = require('discord.js')
 const { prefix,channelIDs,color} = require('./config.json')
 const reactionRoleData = require("./reactionroles.json")
-require("dotenv").config({ path: '../.env' })
+require("dotenv").config()
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] })
 client.commands = new Discord.Collection()
 module.exports.client = client
