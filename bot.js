@@ -300,4 +300,4 @@ client.on('guildMemberRemove', member =>
 
 			
 
-client.login('NzgzMjQ2NjUwODg5NDY5OTUz.X8X9SQ.Uz7dPjkEVVV_q00OUJBVv--crOw')
+
